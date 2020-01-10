@@ -1,1 +1,1 @@
-# GAN_PyTorch
+# GAN PyTorch MNIST
