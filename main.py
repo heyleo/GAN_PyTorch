@@ -75,8 +75,8 @@ for epoch in range(num_epoch):
     fake_images = to_img(fake_img.cpu().data)
     save_image(fake_images, "./result/fake_images-{}.png".format(epoch+1))
 
-    torch.save(G.state_dict(), './model/generator.pth')
-    torch.save(D.state_dict(), "./model/discriminator.pth")
+torch.save(G.state_dict(), './model/generator.pth')
+torch.save(D.state_dict(), "./model/discriminator.pth")
 
 
 
